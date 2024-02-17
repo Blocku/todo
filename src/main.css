@@ -4,11 +4,11 @@
 
 
 .btn{
-    @apply px-5 py-3 rounded-lg text-base font-medium;
+    @apply rounded-lg text-base font-medium;
 }
 
 .btn--primary{
-    @apply w-32 h-auto;
+    @apply h-auto min-w-[20%] max-w-[20%] flex-grow ;
     @apply bg-primary-400;
     @apply text-white ;
     @apply hover:bg-primary-500 active:bg-primary-600;
