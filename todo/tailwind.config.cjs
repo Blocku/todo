@@ -6,7 +6,8 @@ const config = {
   theme: {
     extend: {
       colors:{
-        primary: colors.indigo
+        primary: colors.indigo,
+        secondary: colors.zinc
       },
     },
   },
