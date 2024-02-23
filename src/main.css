@@ -14,3 +14,18 @@
     @apply md:hover:bg-primary-500;
     @apply active:bg-primary-600;
 }
+
+.msgBlock{
+    @apply w-full h-auto ;
+    @apply py-1 px-1 ;
+    @apply flex justify-between items-center ;
+    @apply gap-3; 
+    @apply border-b-2 border-secondary-300;
+}
+
+.msg{
+    @apply w-full h-auto ;
+    @apply text-base font-medium ;
+    @apply break-all ;
+}
+
