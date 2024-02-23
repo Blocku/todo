@@ -8,8 +8,9 @@
 }
 
 .btn--primary{
-    @apply h-auto min-w-[20%] max-w-[20%] flex-grow ;
-    @apply bg-primary-400;
-    @apply text-white ;
-    @apply hover:bg-primary-500 active:bg-primary-600;
+    @apply flex-grow bg-primary-400;
+    @apply text-white;
+    @apply h-auto w-auto;
+    @apply md:hover:bg-primary-500;
+    @apply active:bg-primary-600;
 }
