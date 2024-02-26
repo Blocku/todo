@@ -16,6 +16,7 @@
 }
 
 .msgBlock{
+    @apply mb-7;
     @apply w-full h-auto ;
     @apply py-1 px-1 ;
     @apply flex justify-between items-center ;
@@ -29,3 +30,7 @@
     @apply break-all ;
 }
 
+.trash{
+    @apply text-red-400;
+    @apply cursor-pointer;
+}
