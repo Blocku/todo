@@ -6,12 +6,64 @@
 
 
 .btn{
-    @apply rounded-lg text-base font-medium;
+    @apply p-1 rounded-lg text-base font-medium;
 }
+
+
+
+
+
+
+
+
+
 
 .btn--primary{
     @apply flex-grow bg-primary-400;
     @apply text-white;
     @apply h-auto w-auto;
-    @apply hover:bg-primary-500 active:bg-primary-600 ;
+    @apply md:hover:bg-primary-500;
+    @apply active:bg-primary-600;
+}
+
+.btn--test{
+    @apply p-3 bg-primary-500 text-white mr-5;
+}
+
+
+
+
+
+
+
+
+
+.table{
+    @apply w-full h-full ;
+    @apply space-y-0 ;
+    @apply overflow-auto ;
+}
+
+.table:last-child{
+    @apply mb-0;
+}
+
+.msgBlock{
+    @apply mb-7;
+    @apply w-full h-auto ;
+    @apply py-1 px-1 ;
+    @apply flex justify-between items-center ;
+    @apply gap-3; 
+    @apply border-b-2 border-secondary-300;
+}
+
+.msg{
+    @apply w-full h-auto ;
+    @apply text-base font-medium ;
+    @apply break-all ;
+}
+
+.trash{
+    @apply text-red-400;
+    @apply cursor-pointer;
 }
